@@ -2,16 +2,35 @@
 “Full Stack E-commerce Web Application using Spring Boot, React, and MySQL”
 
 
-🛍️ Zenmart – Modern E-Commerce Web Application
+**🛍️ Zenmart – Modern E-Commerce Web Application**
 
-🚀 Overview
+**🚀 Overview**
 
-ZenMart is a full-stack e-commerce web application designed to provide a smooth online shopping experience for both customers and administrators.
+Zenmart is a full-stack e-commerce web application designed to provide a smooth online shopping experience for both customers and administrators.
 It demonstrates strong backend development skills in Spring Boot, REST APIs, and MySQL, combined with a modern frontend built in React.js.
 This project showcases CRUD operations, secure authentication, role-based access, and database integration — making it ideal for showcasing backend and full-stack development capabilities.
 
 
-🧠 Key Features
+
+**🧠 Key Highlights**
+
+🔐 User Authentication & Authorization using Spring Security
+
+🛒 Product & Cart Management with full CRUD operations
+
+🧩 RESTful API Design following MVC architecture
+
+💾 MySQL Database Integration using Spring Data JPA
+
+🧑‍💻 Admin Dashboard for managing users and products
+
+🎨 Responsive React UI for dynamic and user-friendly interactions
+
+
+
+
+**🧠 Key Features**
+
 ✅ User Authentication & Authorization – Login and Signup using Spring Security
 
 ✅ Product Management – Add, update, view, and delete products
@@ -28,9 +47,11 @@ This project showcases CRUD operations, secure authentication, role-based access
 
 
 
-🏗️ Tech Stack
 
-💻 Backend
+**🏗️ Tech Stack**
+
+**💻 Backend**
+
 Java (Spring Boot Framework)
 
 Spring Data JPA & Hibernate
@@ -39,7 +60,8 @@ MySQL Database
 
 Maven
 
-🌐 Frontend
+**🌐 Frontend**
+
 React.js (Functional Components + Hooks)
 
 HTML5, CSS3, JavaScript
@@ -47,39 +69,15 @@ HTML5, CSS3, JavaScript
 Axios (API integration)
 
 
-🧰 Tools & Others
+
+
+**🧰 Tools & Others**
 
 VS Code / IntelliJ IDEA
 
 Git & GitHub
 
 Postman for API testing
-
-
-
-⚙️ Installation & Setup
-
-🗄️ Backend Setup (Spring Boot)
-
-# Clone the repository
-git clone https://github.com/<your-username>/ZenMart.git
-cd ZenMart/backend
-
-# Configure MySQL in application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/zenmart
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-
-# Run the Spring Boot app
-mvn spring-boot:run
-
-
-
-💻 Frontend Setup (React)
-
-cd ../frontend
-npm install
-npm start
 
 
 
@@ -92,22 +90,14 @@ Your app will run on:
 
 
 
-🧩 API Endpoints (Examples)
-Method	Endpoint	Description
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	User login
-GET	/api/products	Fetch all products
-POST	/api/products	Add new product (Admin only)
-PUT	/api/products/{id}	Update product
-DELETE	/api/products/{id}	Delete product
+
+**📸 Screenshots**
 
 
 
-📸 Screenshots
 
+**🔐 Future Improvements**
 
-
-🔐 Future Improvements
 Payment Gateway Integration (Razorpay/Stripe)
 
 Order Tracking
@@ -118,20 +108,28 @@ Cloud Deployment on Render / AWS
 
 
 
-👨‍💻 Author
 
-Kunal Patil
+
+**👨‍💻 Author**
+
+Mr. Kunal R. Patil
 
 📧 kunalrp9904@gmail.com
 
-💼 linkedin.com/in/kunal-r-patil-a2975325a/
+💼 https://linkedin.com//in//kunal-r-patil-a2975325a//
 
-🔗 GitHub: github.com/KunalPatil94
+🔗 https://GitHub: github.com//KunalPatil94
 
 
 
-⭐ Acknowledgements
+
+
+**⭐ Acknowledgements**
+
 Spring Boot documentation
+
 React official docs
+
 MySQL community
+
 Postman for API testing

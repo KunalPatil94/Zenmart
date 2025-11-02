@@ -13,11 +13,17 @@ This project showcases CRUD operations, secure authentication, role-based access
 
 🧠 Key Features
 ✅ User Authentication & Authorization – Login and Signup using Spring Security
+
 ✅ Product Management – Add, update, view, and delete products
+
 ✅ Cart & Checkout System – Add to cart, view cart, and place orders
+
 ✅ Admin Dashboard – Manage products and users dynamically
+
 ✅ Database Integration – Persistent storage using MySQL and JPA/Hibernate
+
 ✅ Responsive UI – Built with React.js for a clean and dynamic interface
+
 ✅ RESTful APIs – Well-structured endpoints for all core operations
 
 
@@ -26,26 +32,35 @@ This project showcases CRUD operations, secure authentication, role-based access
 
 💻 Backend
 Java (Spring Boot Framework)
+
 Spring Data JPA & Hibernate
+
 MySQL Database
+
 Maven
 
 🌐 Frontend
 React.js (Functional Components + Hooks)
+
 HTML5, CSS3, JavaScript
+
 Axios (API integration)
 
 
 🧰 Tools & Others
 
 VS Code / IntelliJ IDEA
+
 Git & GitHub
+
 Postman for API testing
 
 
 
 ⚙️ Installation & Setup
+
 🗄️ Backend Setup (Spring Boot)
+
 # Clone the repository
 git clone https://github.com/<your-username>/ZenMart.git
 cd ZenMart/backend
@@ -61,6 +76,7 @@ mvn spring-boot:run
 
 
 💻 Frontend Setup (React)
+
 cd ../frontend
 npm install
 npm start
@@ -69,7 +85,9 @@ npm start
 
 
 Your app will run on:
+
 👉 Frontend: http://localhost:3000
+
 👉 Backend: http://localhost:8080
 
 
@@ -91,16 +109,23 @@ DELETE	/api/products/{id}	Delete product
 
 🔐 Future Improvements
 Payment Gateway Integration (Razorpay/Stripe)
+
 Order Tracking
+
 JWT Authentication
+
 Cloud Deployment on Render / AWS
 
 
 
 👨‍💻 Author
+
 Kunal Patil
+
 📧 kunalrp9904@gmail.com
+
 💼 linkedin.com/in/kunal-r-patil-a2975325a/
+
 🔗 GitHub: github.com/KunalPatil94
 
 
